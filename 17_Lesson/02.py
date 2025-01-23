@@ -2,8 +2,15 @@ def hasap_barlamak():
     belgi =int(input("Telefon belginiz: "))
     if (60000000 < belgi < 65999999) or (71000000 < belgi < 71999999):
         print(f"Sizin hasabynyz: 5 TMT ")
+
+
+        
     else: 
         print("Nadogry belgi yazdynyz! ")
+
+
+
+
 
 def hasap_doldurmak():
     belgi =int(input("Telefon belginiz:  "))
